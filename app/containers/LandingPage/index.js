@@ -12,7 +12,6 @@ import LargeIcon from 'components/LargeIcon';
 import I from  'components/I'
 import H1 from 'components/H1';
 import AlignVertically from 'components/AlignVertically';
-import FontAwesome from 'react-fontawesome';
 
 export default class FeaturePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
@@ -32,11 +31,11 @@ export default class FeaturePage extends React.Component { // eslint-disable-lin
           ]}
         />
         <LargeIcon>
-        <FontAwesome className='fa fa-file-text-o' />
-        <FontAwesome className='fa fa-envelope-o' />
-        <FontAwesome className='fa fa-phone' />
-        <FontAwesome className='fa fa-linkedin' />
-        <FontAwesome className='fa fa-github' />
+        <a href="#" title="Resume"><I className="fa fa-file-text-o"></I></a>
+        <a href="mailto:jdistler@utexas.edu"  title="jdistler@utexas.edu"><I className="fa fa-envelope-o"></I></a>
+        <a href="tel:+1-201-367-8707" title="201-367-8707"><I className="fa fa-phone"></I></a>
+        <a href="https://www.linkedin.com/in/josephdistler/" title="https://www.linkedin.com/in/josephdistler/"><I className="fa fa-linkedin"></I></a>
+        <a href="https://github.com/jdistler" title="https://github.com/jdistler"><I className="fa fa-github"></I></a>
         </LargeIcon>
       </AlignVertically>
     );

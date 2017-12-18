@@ -47,6 +47,7 @@ import createRoutes from './routes';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/css/bootstrap-theme.min.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 // Observe loading of Open Sans (to remove open sans, remove the <link> tag in
 // the index.html file and this observer)

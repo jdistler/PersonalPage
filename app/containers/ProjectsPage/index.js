@@ -32,29 +32,17 @@ export default class ProjectsPage extends React.Component { // eslint-disable-li
        <SpacedGrid>
        <Row>
          <Col md={12}><p className="lead">
-           <Link to="/projects/cryptocurrency/cryptoswap">
-           Cryptocurrency algorithmic trader
-           </Link>
+           <a href="http://raiblocks.direct">
+           RaiBlocks Direct
+           </a>
            </p>
          </Col>
          </Row>
          <Row>
-         <Col md={12}><p>A trading bot in Java using the XChange library for interacting with 50+ bitcoin and altcoin exchanges.</p></Col>
+         <Col md={12}><p>A local RaiBlocks marketplace with the goal of exchanging fiat or goods for RaiBlocks.</p></Col>
+         <Col md={12}><p><a href="https://raiblocks.net/">RaiBlocks</a> is a decentralized cryptocurrency with significant improvements over competitors such as Bitcoin.</p></Col>
        </Row>
        </SpacedGrid>
-       <SpacedGrid>
-        <Row>
-          <Col md={12}><p className="lead">
-            <Link to="/projects/weightlifting">
-            Weight Lifting Tracker
-            </Link>
-            </p>
-          </Col>
-          </Row>
-          <Row>
-          <Col md={12}><p>A workout planner to record weight lifting progression and track progress live in the gym as each set is completed.</p></Col>
-        </Row>
-        </SpacedGrid>
       </div>
     );
   }
