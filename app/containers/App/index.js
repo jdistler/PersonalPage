@@ -31,11 +31,6 @@ export function App(props) {
         meta={[
           { name: 'description', content: 'A personal website by Joseph Distler' },
         ]}
-        link={[
-                   {"rel": "stylesheet", "href": "https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"},
-                   {"rel": "stylesheet", "href": "https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css"},
-                   {"rel": "stylesheet", "href": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"}
-               ]}
       />
       <Header />
       {React.Children.toArray(props.children)}
